@@ -1,0 +1,85 @@
+
+/* Table Container */
+.table-container {
+  width: 95%;
+  margin: 40px auto;
+  overflow-x: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Table */
+.interview-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  min-width: 900px;
+}
+
+/* Table Heading */
+.interview-table thead {
+  background: #243b55;
+  color: white;
+}
+
+.interview-table th {
+  padding: 15px 12px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* Table Data */
+.interview-table td {
+  padding: 13px 12px;
+  font-size: 14px;
+  color: #444;
+  border-bottom: 1px solid #e8edf2;
+}
+
+/* Alternate Rows */
+.interview-table tbody tr:nth-child(even) {
+  background: #f5f8fc;
+}
+
+/* Hover */
+.interview-table tbody tr:hover {
+  background: #eaf2ff;
+}
+
+/* Buttons */
+.edit-btn,
+.delete-btn {
+  width: 75px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.edit-btn {
+  background: #2563eb;
+}
+
+.edit-btn:hover {
+  background: #1d4ed8;
+}
+
+.delete-btn {
+  background: #dc3545;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+/* Table Heading */
+.table-heading {
+  text-align: center;
+  color: #243b55;
+  margin-top: 35px;
+  font-weight: 700;
+}

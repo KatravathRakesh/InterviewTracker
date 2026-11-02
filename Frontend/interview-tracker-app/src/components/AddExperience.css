@@ -1,0 +1,126 @@
+
+/* Main Container */
+.experience-container,
+.UpdateData {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.experience-container h2,
+.UpdateData h1 {
+  color: #243b55;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.experience-container p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* Form Grid */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+/* Form Group */
+.form-group,
+.from-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+/* Labels */
+.form-group label,
+.from-group label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* Inputs and Select */
+.form-group input,
+.form-group select,
+.from-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #dce2e8;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  background: #fafbfc;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+/* Focus Effect */
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus,
+.from-group input:focus {
+  border-color: #2563eb;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Experience Textarea */
+.experience-field {
+  margin-top: 22px;
+}
+
+.experience-field textarea {
+  resize: vertical;
+}
+
+/* Save and Update Button */
+.save-btn {
+  margin-top: 25px;
+  padding: 13px 28px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(37, 99, 235, 0.2);
+}
+
+/* Update Page */
+.UpdateData {
+  max-width: 900px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-container,
+  .UpdateData {
+    margin: 20px 12px;
+    padding: 20px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-container h2,
+  .UpdateData h1 {
+    font-size: 22px;
+  }
+}
